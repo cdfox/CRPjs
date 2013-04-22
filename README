@@ -5,4 +5,4 @@ Javascript implementation of collapsed Gibbs sampling for Chinese Restaurant Pro
 
 I had in mind that I might want to use this in a Chrome extension, hence the use of javascript.
 
-To see an example: open index.html in Chrome, open the Chrome developer console, and run the function run_example(). You can also specify parameter values other than the defaults with run_example(alpha, beta) (alpha controls the tendency for documents to start new clusters, beta controls how concentrated the each cluster's distribution over the vocabulary tends to be). show_docs(d) shows the documents in cluster d.
+To see an example: open index.html in Chrome.
