@@ -11,13 +11,13 @@
 	</p>
 	<p>
 		Alpha: <input id="alpha" type="number" min="0" step="0.1" value="1.0"> <br/>
-		(Controls tendency for documents to start a new table. Larger == more, smaller clusters.)<br/> 
+		(Controls tendency for documents to start a new cluster. Larger == more, smaller clusters.)<br/> 
 	</p>
 	<p>
 		Beta: <input id="beta" type="number" min="0" step="0.1" value="0.1"> <br/>
-		(Controls how concentrated tables' word distributions tend to be. <br/> 
-		0 < beta < 1 == probability concentrated on few words,  <br/>
-		1 < beta == probability spread out more over the vocabulary of this document collection.)
+		(Controls how concentrated clusters' word distributions tend to be. <br/> 
+		0 < beta < 1 == probability mass tends to be concentrated on a few words,  <br/>
+		1 < beta == probability mass tends to be spread out across many words.)
 	</p>
 	<pre id="summary">
 	</pre>
